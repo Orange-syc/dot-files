@@ -1,7 +1,7 @@
 noremap <silent> ;; :nohl<cr><esc>
 set timeout timeoutlen=200 ttimeoutlen=0
 
-map P "+p
+" map P "+p
 map Y ggVG"+ygg
 vmap Y "+y
 vnoremap <silent> y y`]
@@ -38,9 +38,9 @@ set incsearch
 set scrolloff=3
 set hls
 set mouse=a
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set smarttab
 set expandtab
 set encoding=utf-8
